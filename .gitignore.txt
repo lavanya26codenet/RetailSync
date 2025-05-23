@@ -1,0 +1,12 @@
+# Ignore build output
+/target/
+*.class
+
+# Ignore IDE-specific files
+*.iml
+.idea/
+nbproject/private/
+
+# Maven wrapper files (if not used)
+.mvn/
+mvnw*
