@@ -70,7 +70,7 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 2. Open terminal or pgAdmin.  
 3. Run the backup SQL file to restore tables and sample data:
 
-<pre>psql -U <your-username> -d retailsync -f retailsync_backup.sql</pre>
+<pre>psql -U &lt;your-username&gt; -d retailsync -f retailsync_backup.sql</pre>
 ✅ This will set up tables: employees, users, products, and orders.
 
 ---
