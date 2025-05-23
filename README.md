@@ -7,11 +7,11 @@ It helps manage employees, products, billing, and order processing — similar t
 
 ## 📌 Why RetailSync?
 
-Retail stores deal with daily tasks like:
-- Adding and updating product stock
-- Managing employee and receptionist details
-- Generating bills for customers
-- Keeping track of orders
+Retail stores deal with daily tasks like:  
+- Adding and updating product stock  
+- Managing employee and receptionist details  
+- Generating bills for customers  
+- Keeping track of orders  
 
 RetailSync makes all of these tasks easier and faster by providing one system for everything.
 
@@ -19,95 +19,101 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 
 ## 💻 Technologies Used
 
-- **Java** (Swing for GUI)
-- **PostgreSQL** (Database)
-- **Barcode4J** (Barcode image generation)
-- **NetBeans** (IDE)
-- **Maven** (Project management)
+- **Java** (Swing for GUI)  
+- **PostgreSQL** (Database)  
+- **Barcode4J** (Barcode image generation)  
+- **NetBeans** (IDE)  
+- **Maven** (Project management)  
 
 ---
 
 ## 🔑 Key Features
 
-- Manager and Receptionist login
-- Add, update, delete, and view employees/products
-- Billing with automatic stock update
-- Order records saved in the system
-- Barcode generation for products
+- Manager and Receptionist login  
+- Add, update, delete, and view employees/products  
+- Billing with automatic stock update  
+- Order records saved in the system  
+- Barcode generation for products  
 
 ---
 
 ## 👤 User Roles
 
 - **Manager**: Full access to all features  
-- **Receptionist**: Can generate bills and view own orders
+- **Receptionist**: Can generate bills and view own orders  
 
 ---
 
 ## 📁 Project Modules
 
-- **Employee Management**
-- **Product Management**
-- **Billing and Order System**
-- **Login and Role-based Access**
-- **Barcode Generator**
+- **Employee Management**  
+- **Product Management**  
+- **Billing and Order System**  
+- **Login and Role-based Access**  
+- **Barcode Generator**  
 
 ---
 
 ## ⚙️ How to Set Up and Run
 
 ### 🔧 Prerequisites
-- Java JDK 17+
-- PostgreSQL installed
-- NetBeans IDE (or other Maven-supported IDE)
+
+- Java JDK 17+  
+- PostgreSQL installed  
+- NetBeans IDE (or other Maven-supported IDE)  
 
 ---
 
 ### 🗄️ Database Setup
 
-1. Create a PostgreSQL database named `retailsync`
-2. Open terminal or pgAdmin
+1. Create a PostgreSQL database named `retailsync`.  
+2. Open terminal or pgAdmin.  
 3. Run the backup SQL file to restore tables and sample data:
 
+```bash
 psql -U postgres -d retailsync -f retailsync_backup.sql
+✅ This will set up tables: employees, users, products, and orders.
 
-✅ This will set up tables: employees, users, products, and orders
-
----
-
-###  ▶️ Running the App
+▶️ Running the App
 Option 1: From NetBeans
+
 Open the project
 
 Right-click SplashScreenFrame.java → Run File
 
-Option 2: Using .jar
-If you have the .jar built:
+Option 2: Using the JAR file
 
+Navigate to the target/ directory:
+
+bash
+Copy
+Edit
 cd target/
-java -jar RetailSync-1.0-SNAPSHOT.jar
+Run the JAR:
 
+bash
+Copy
+Edit
+java -jar RetailSync-1.0-SNAPSHOT.jar
 ✅ This will open the splash screen, followed by the login screen.
 
----
-
-### 🔐 Login Credentials
-Role	        Username	    Password
-Manager	        lavanya123	    lavanya@123
-Receptionist	neha123	         neha@123
-Receptionist	sahil123	    sahil@123
+🔐 Login Credentials
+Role	Username	Password
+Manager	lavanya123	lavanya@123
+Receptionist	neha123	neha@123
+Receptionist	sahil123	sahil@123
 
 👤 More users available in the users table after importing the SQL file.
 
----
-### 📄 License
+📄 License
 Developed as a final-year project
 © 2025 RetailSync | Indira College of Commerce and Science, Pune
 
----
-
-### 🤝 Connect
+🤝 Connect
 For issues or suggestions:
-📧 [lavanyaasole2602@gmail.com]
+📧 lavanyaasole2602@gmail.com
 GitHub: github.com/lavanya26codenet/RetailSync
 
+yaml
+Copy
+Edit
