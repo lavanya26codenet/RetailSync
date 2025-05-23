@@ -70,7 +70,7 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 2. Open terminal or pgAdmin.  
 3. Run the backup SQL file to restore tables and sample data:
 
-<pre> ```bash psql -U postgres -d retailsync -f retailsync_backup.sql ``` </pre>
+<pre>psql -U postgres -d retailsync -f retailsync_backup.sql</pre>
 ✅ This will set up tables: employees, users, products, and orders.
 
 ---
@@ -85,36 +85,42 @@ Right-click SplashScreenFrame.java → Run File
 
 Navigate to the `target` folder:
 
-<pre>```bash
-cd target/```</pre>
+<pre>cd target/</pre>
 
 Run the JAR:
-<pre>```bash
-java -jar RetailSync-1.0-SNAPSHOT.jar```</pre>
+<pre>java -jar RetailSync-1.0-SNAPSHOT.jar</pre>
 
 ✅ This will open the splash screen, followed by the login screen.
 
 ---
 
 ## 🔐 Login Credentials
-Role	Username	Password
-Manager	lavanya123	lavanya@123
-Receptionist	neha123	neha@123
-Receptionist	sahil123	sahil@123
+
+| Role         | Username   | Password     |
+|--------------|------------|--------------|
+| Manager      | lavanya123 | lavanya@123  |
+| Receptionist | neha123    | neha@123     |
+| Receptionist | sahil123   | sahil@123    |
+
 
 👤 More users available in the users table after importing the SQL file.
 
 ---
 
 ## 📄 License
-Developed as a final-year project
-© 2025 RetailSync | Indira College of Commerce and Science, Pune
+
+Developed as a final-year project  
+© 2025 RetailSync  
+Indira College of Commerce and Science, Pune
+
 
 ---
 
 ## 🤝 Connect
-For issues or suggestions:
-📧 lavanyaasole2602@gmail.com
-GitHub: github.com/lavanya26codenet/RetailSync
+
+For issues or suggestions:  
+📧 [lavanyaasole2602@gmail.com](mailto:lavanyaasole2602@gmail.com)  
+🌐 [GitHub Repository](https://github.com/lavanya26codenet/RetailSync)
+
 
 ---
