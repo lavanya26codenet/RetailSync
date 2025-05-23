@@ -66,11 +66,18 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 
 ### 🗄️ Database Setup
 
+### ⚙️ Database Credentials
+
+The application connects to PostgreSQL using:
+Username: postgres
+Password: postgres
+Make sure these credentials are set up in your PostgreSQL server, or update the connection settings in the application source code accordingly.
+
 1. Create a PostgreSQL database named `retailsync`.  
 2. Open terminal or pgAdmin.  
 3. Run the backup SQL file to restore tables and sample data:
 
-<pre>psql -U &lt;your-username&gt; -d retailsync -f retailsync_backup.sql</pre>
+<pre>psql -U postgres -d retailsync -f retailsync_backup.sql</pre>
 ✅ This will set up tables: employees, users, products, and orders.
 
 ---
