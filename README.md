@@ -70,34 +70,33 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 2. Open terminal or pgAdmin.  
 3. Run the backup SQL file to restore tables and sample data:
 
-```bash
-psql -U postgres -d retailsync -f retailsync_backup.sql
+<pre> ```bash psql -U postgres -d retailsync -f retailsync_backup.sql ``` </pre>
 ✅ This will set up tables: employees, users, products, and orders.
 
-▶️ Running the App
-Option 1: From NetBeans
+---
+
+### ▶️ Running the App
+**Option 1: From NetBeans**
 
 Open the project
-
 Right-click SplashScreenFrame.java → Run File
 
-Option 2: Using the JAR file
+**Option 2: Using the .jar File**
 
-Navigate to the target/ directory:
+Navigate to the `target` folder:
 
-bash
-Copy
-Edit
-cd target/
+<pre>```bash
+cd target/```</pre>
+
 Run the JAR:
+<pre>```bash
+java -jar RetailSync-1.0-SNAPSHOT.jar```</pre>
 
-bash
-Copy
-Edit
-java -jar RetailSync-1.0-SNAPSHOT.jar
 ✅ This will open the splash screen, followed by the login screen.
 
-🔐 Login Credentials
+---
+
+## 🔐 Login Credentials
 Role	Username	Password
 Manager	lavanya123	lavanya@123
 Receptionist	neha123	neha@123
@@ -105,15 +104,17 @@ Receptionist	sahil123	sahil@123
 
 👤 More users available in the users table after importing the SQL file.
 
-📄 License
+---
+
+## 📄 License
 Developed as a final-year project
 © 2025 RetailSync | Indira College of Commerce and Science, Pune
 
-🤝 Connect
+---
+
+## 🤝 Connect
 For issues or suggestions:
 📧 lavanyaasole2602@gmail.com
 GitHub: github.com/lavanya26codenet/RetailSync
 
-yaml
-Copy
-Edit
+---
