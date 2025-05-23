@@ -68,7 +68,6 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 2. Open terminal or pgAdmin
 3. Run the backup SQL file to restore tables and sample data:
 
-```bash
 psql -U postgres -d retailsync -f retailsync_backup.sql
 
 ✅ This will set up tables: employees, users, products, and orders
@@ -92,7 +91,7 @@ java -jar RetailSync-1.0-SNAPSHOT.jar
 🔐 Login Credentials
 Role	        Username	    Password
 Manager	        lavanya123	    lavanya@123
-Receptionist	neha123	        neha@123
+Receptionist	neha123	         neha@123
 Receptionist	sahil123	    sahil@123
 
 👤 More users available in the users table after importing the SQL file.
