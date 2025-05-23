@@ -70,7 +70,7 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 2. Open terminal or pgAdmin.  
 3. Run the backup SQL file to restore tables and sample data:
 
-<pre>```bash psql -U <your-username> -d retailsync -f retailsync_backup.sql</pre>
+<pre>psql -U <your-username> -d retailsync -f retailsync_backup.sql</pre>
 ✅ This will set up tables: employees, users, products, and orders.
 
 ---
@@ -85,14 +85,13 @@ Right-click SplashScreenFrame.java → Run File
 
 Navigate to the `target` folder:
 
-<pre>```bash cd target/</pre>
+<pre>cd target/</pre>
 
 ```markdown
 > ⚠️ Note: If the `target` folder is missing, you can build the JAR with:
-<pre>```bash
-mvn clean package</pre>
+<pre>mvn clean package</pre>
 Run the JAR:
-<pre>```bash java -jar RetailSync-1.0-SNAPSHOT.jar</pre>
+<pre>java -jar RetailSync-1.0-SNAPSHOT.jar</pre>
 
 ✅ This will open the splash screen, followed by the login screen.
 
