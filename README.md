@@ -51,6 +51,7 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 - **Billing and Order System**
 - **Login and Role-based Access**
 - **Barcode Generator**
+
 ---
 
 ## ⚙️ How to Set Up and Run
@@ -88,7 +89,9 @@ java -jar RetailSync-1.0-SNAPSHOT.jar
 
 ✅ This will open the splash screen, followed by the login screen.
 
-🔐 Login Credentials
+---
+
+### 🔐 Login Credentials
 Role	        Username	    Password
 Manager	        lavanya123	    lavanya@123
 Receptionist	neha123	         neha@123
@@ -97,13 +100,13 @@ Receptionist	sahil123	    sahil@123
 👤 More users available in the users table after importing the SQL file.
 
 ---
-📄 License
+### 📄 License
 Developed as a final-year project
 © 2025 RetailSync | Indira College of Commerce and Science, Pune
 
 ---
 
-🤝 Connect
+### 🤝 Connect
 For issues or suggestions:
 📧 [lavanyaasole2602@gmail.com]
 GitHub: github.com/lavanya26codenet/RetailSync
