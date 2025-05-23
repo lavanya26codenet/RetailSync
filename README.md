@@ -51,10 +51,61 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 - **Billing and Order System**
 - **Login and Role-based Access**
 - **Barcode Generator**
+---
+
+## ⚙️ How to Set Up and Run
+
+### 🔧 Prerequisites
+- Java JDK 17+
+- PostgreSQL installed
+- NetBeans IDE (or other Maven-supported IDE)
 
 ---
-## 📌 Developed By
 
-**Lavanya Asole**  
-B.Sc. (Computer Science)  
-Indira College of Commerce and Science, Pune
+### 🗄️ Database Setup
+
+1. Create a PostgreSQL database named `retailsync`
+2. Open terminal or pgAdmin
+3. Run the backup SQL file to restore tables and sample data:
+
+```bash
+psql -U postgres -d retailsync -f retailsync_backup.sql
+
+✅ This will set up tables: employees, users, products, and orders
+
+---
+
+###  ▶️ Running the App
+Option 1: From NetBeans
+Open the project
+
+Right-click SplashScreenFrame.java → Run File
+
+Option 2: Using .jar
+If you have the .jar built:
+
+cd target/
+java -jar RetailSync-1.0-SNAPSHOT.jar
+
+✅ This will open the splash screen, followed by the login screen.
+
+🔐 Login Credentials
+Role	        Username	    Password
+Manager	        lavanya123	    lavanya@123
+Receptionist	neha123	        neha@123
+Receptionist	sahil123	    sahil@123
+
+👤 More users available in the users table after importing the SQL file.
+
+---
+📄 License
+Developed as a final-year project
+© 2025 RetailSync | Indira College of Commerce and Science, Pune
+
+---
+
+🤝 Connect
+For issues or suggestions:
+📧 [lavanyaasole2602@gmail.com]
+GitHub: github.com/lavanya26codenet/RetailSync
+
