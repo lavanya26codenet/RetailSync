@@ -65,13 +65,15 @@ RetailSync makes all of these tasks easier and faster by providing one system fo
 ---
 
 ### 🗄️ Database Setup
-
 ### ⚙️ Database Credentials
 
 The application connects to PostgreSQL using:
-Username: postgres
-Password: postgres
+
+- **Username:** `postgres`  
+- **Password:** `postgres`
+
 Make sure these credentials are set up in your PostgreSQL server, or update the connection settings in the application source code accordingly.
+
 
 1. Create a PostgreSQL database named `retailsync`.  
 2. Open terminal or pgAdmin.  
