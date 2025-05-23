@@ -87,8 +87,8 @@ Navigate to the `target` folder:
 
 <pre>cd target/</pre>
 
-```markdown
 > ⚠️ Note: If the `target` folder is missing, you can build the JAR with:
+
 <pre>mvn clean package</pre>
 Run the JAR:
 <pre>java -jar RetailSync-1.0-SNAPSHOT.jar</pre>
